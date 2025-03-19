@@ -1,0 +1,35 @@
+
+1 - Header
+
+Intro sobre mi y enlaces a los diferentes menus
+
+
+2 - Quien es Alex?
+
+Un poquito hablar de mi vida, fecha de nacimiento y hobbies
+
+
+3 - Sobre Mi
+
+Orientación profesional y academica
+
+
+4 - Portafolio
+
+proyectos
+
+	1 - Mejorar como atleta en cursas
+
+	2 - Mejorar mis pesos en levantamiento de peso
+
+	3 - Obtener las titulaciones que estoy cursando actualmente
+
+	4 - Mejorar al ajedrez
+
+
+5 - Contacto
+
+Un formulario de contacto por si quieren contactar conmigo, incluir campo para el nombre, el email y el mensaje
+
+6 - Footer
+Derechos de autor y los links a mis rrss
