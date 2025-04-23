@@ -1,1 +1,65 @@
-/* Nada por ahora...*/
+
+#bodyindex {
+    background-image: url('fotos/Foto\ para\ index.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    font-family: "Alegreya", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    background-color: #fdfdfd;
+  }
+
+#h1index {
+    font-size: 4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 0 0 1rem 0;
+    letter-spacing: 2px;
+  } 
+ /* text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7); me guardo esto para luego que la verdad es que me mola el sombreado esta bacano*/ 
+
+#bienvenidoindex{
+    font-size: 2rem;
+    margin: 2rem auto;
+    max-width: 900px;
+    color: #2f3233;
+    line-height: 1.6;
+    padding: 1rem;
+  }
+
+#boton{
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.6rem 1.4rem;
+    margin: 0.5rem;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-decoration: none;
+  }
+
+#boton:hover {
+    background-color: #333;
+    transform: translateY(-2px);
+  }
+
+#imagenindex {
+    margin-top: 2rem;
+    max-width: 90%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
