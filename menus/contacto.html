@@ -4,63 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body>
+<body id="bodycontacto">
     
-    <h2>Contacto</h2>
-    <P>Introduce tus datos para enviarme un correo directamente!!!</P>
-
+    <div id="divcontacto">
+    <h1 id="h1contacto">Contacto</h1>
     <form>
+        <label id="labelcontacto" for="nombre">Nombre</label><br>
+        <input type="text" id="textboxcontacto" name="nombre" placeholder="Escribe tu nombre aquí" required><br><br>
 
-        <label>Nombre</label>
-        <input><br><br>
+        <label id="labelcontacto" for="apellidos">Apellidos</label><br>
+        <input type="text" id="textboxcontacto" name="apellidos" placeholder="Escribe tus apellidos aquí" required><br><br>
 
-        <label>Apellidos</label>
-        <input><br><br>
+        <label id="labelcontacto" for="telefono">Número de teléfono</label><br>
+        <input type="text" pattern="\d*" maxlength="9" id="textboxcontacto" name="telefono" placeholder="Escribe tu numero de teléfono aquí" required><br><br>
 
-        <label>Empresa</label>
-        <input><br><br>
+        <label id="labelcontacto" for="correo">Correo electronico</label><br>
+        <input type="text" id="textboxcontacto" name="correoelectronico" placeholder="Escribe tus correo electronico aquí" required><br><br>
 
-        <label>Pais</label>
-        <select>
+        <label id="labelcontacto" for="empresa">Empresa</label><br>
+        <input type="text" id="textboxcontacto" name="empresa" placeholder="Escribe el nombre de tu empresa aquí" required><br><br>
 
-            <option disabled selected>Selecciona pais</option>
+
+        <label id="labelcontacto" for="pais">País</label><br>
+        <select id="selectcontacto" name="pais">
+            <option disabled selected>Selecciona país</option>
             <option>España</option>
             <option>Portugal</option>
             <option>Andorra</option>
-            <option>Pais de latam</option>
-            <option>Otro</option>
-
+            <option>Francia</option>
+            <option>Italia</option>
         </select><br><br>
 
-        <label>Departamento</label>
-        <select>
-            
-            <option disabled selected>Selecciona departamento</option>
-            <option>RRHH</option>
-            <option>IT</option>
-            <option>Administración</option>
-            <option>Otro</option>
+        <label id="labelcontacto" for="otropais">Otro</label><br>
+        <input type="text" id="textboxcontacto" name="otropais" placeholder="En caso de no encontrarse en el desplegable, escribe aquí tu pais"><br><br>
 
+        <label id="labelcontacto" for="departamento">Departamento</label><br>
+        <select id="selectcontacto" name="departamento">
+          <option disabled selected>Selecciona departamento</option>
+          <option>RRHH</option>
+          <option>IT</option>
+          <option>Administración</option>
+          <option>Compras</option>
         </select><br><br>
 
-        <label>Información adicional</label>
-        <input><br><br>
+        <label id="labelcontacto" for="otrodepartamento">Otro</label><br>
+        <input type="text" id="textboxcontacto" name="otrodepartamento" placeholder="En caso de no encontrarse en el desplegable, escribe aquí tu departamento"><br><br>
+
+        <label id="labelcontacto" for="info">Información adicional</label><br>
+        <input type="text" id="informacionadicionalcontacto" name="info" placeholder="Añade aquí información adicional sobre ti si quieres!"><br><br>
         
     </form>
 
-    <a href="formulario_enviado.html"> 
-        <button>Enviar formulario</button>
-    </a>
+    <a class="centrar" href="formulario_enviado.html" >
+        <button id="boton">Enviar información de contacto</button>
+        </a>
 
-    <br>
-    <br>
+    </div>
+
+    <footer id="footergeneral">
     <a href="../index.html"> 
-        <button>volver atras</button>
+    <button id="boton">volver atras</button>
     </a>
-
-    <!-- Los br son temporales hasta que invierta tiempo en los estilos una vez terminado el contenido de la web-->
+    </footer>
      
 </body>
 </html>
