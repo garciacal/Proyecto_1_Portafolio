@@ -55,7 +55,7 @@
 
 .gridhobbies > div {
   position: relative;
-  height: 180px;
+  height: 300px;
   background-size: cover;
   background-position: center;
   border-radius: 15px;
@@ -94,14 +94,31 @@
 
 
 #bodysobremi {
-font-family: "Alegreya", sans-serif;
+  font-family: "Alegreya", sans-serif;
+  background-image: url('fotos/fondosobremi.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 #divhobbies {
-  max-width: 900px;
-  margin: 40px auto;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
   padding: 20px;
-  font-family: "Alegreya", sans-serif;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
+
+#divhobbies h1{
+  text-align:center;
 }
 
 #divhobbies h3 {
@@ -111,6 +128,13 @@ font-family: "Alegreya", sans-serif;
   color: #333;
 }
 
+#mapa {
+  background-image: url(fotos/mapa.jpg);
+}
+
+#calendario {
+  background-image: url(fotos/calendario.jpg);
+}
 
 #hobbyesqui {
   background-image: url(fotos/hobbyesqui.jpg);
