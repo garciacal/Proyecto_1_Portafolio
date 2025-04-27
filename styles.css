@@ -27,15 +27,15 @@
   text-decoration: none;
 }
 
+
 #boton:hover {
   background-color: #333;
   transform: translateY(-2px);
 }
 
 #footergeneral{
-
   padding: 20px 0;
-  margin-top: 40px;
+  margin-top: auto;
   text-align: center;
   position: relative;
   bottom: 0;
@@ -167,9 +167,6 @@
 #hobbyjuegosmesa {
   background-image: url(fotos/hobbyjuegosdemesa.jpg);
 }
-
-
-
 
 
 /* CONTACTO*/
@@ -319,6 +316,55 @@
     color: #2f3233;
     line-height: 1.6;
     padding: 1rem;
+  }
+
+  /** PROYECTOS **/
+
+  #bodyproyectos {
+    background-image: url('fotos/fondoproyecto.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    font-family: "Alegreya", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    background-color: #fdfdfd;
+  }
+
+  /** arreglo para que el footer no me lo mueva todo arriba del todo **/
+
+  #bodyproyectos > div {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+  #h1proyectos {
+    font-size: 4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 0 0 1rem 0;
+    letter-spacing: 2px;
+  } 
+
+
+  #divproyectos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
   }
 
 /* notas */
