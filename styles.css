@@ -7,6 +7,14 @@
   height: 100%;  
 }
 
+.filafotos{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
 /*GENERAL*/
 
 #boton{
@@ -31,6 +39,28 @@
 #boton:hover {
   background-color: #333;
   transform: translateY(-2px);
+}
+
+#botonlink{
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+}
+
+#botonlink img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 6px;
+}
+
+#botonlink:hover {
+  transform: translateY(-2px);
+}
+
+.centrar{
+  justify-content: center;
+  align-items: center;
 }
 
 #footergeneral{
@@ -168,6 +198,106 @@
   background-image: url(fotos/hobbyjuegosdemesa.jpg);
 }
 
+/* EXPERIENCIA LABORAL */
+
+#h1laboral {
+  font-size: 2rem;
+  margin: 2rem auto;
+  max-width: 900px;
+  color: #515353;
+  line-height: 1.6;
+  padding: 1rem;
+}
+
+#bodylaboral{
+  font-family: "Alegreya", sans-serif;
+  background-size: cover;
+  background-image: url('fotos/meetingroom.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  margin-left: 15px;
+  min-height: 100vh;
+}
+
+#divlaboral{
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#divlaboralcolumna{
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  margin-left: 15px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#div2columnaslaboral{
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+/* HISTORIAL ACADEMICO */
+
+#bodyacademico{
+  font-family: "Alegreya", sans-serif;
+  background-size: cover;
+  background-image: url('fotos/clasecole.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  margin-left: 15px;
+  min-height: 100vh;
+}
+
+#divestudios{
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#tituloacademico{
+  font-size: 2rem;
+  margin: 2rem auto;
+  max-width: 900px;
+  color: #515353;
+  line-height: 1.6;
+  padding: 1rem;
+}
 
 /* CONTACTO*/
 
