@@ -497,5 +497,86 @@
     margin: 0 auto;
   }
 
+  /* PROYECTO GYM */
+
+  #bodygym{
+    font-family: "Alegreya", sans-serif;
+    background-image: url('fotos/fondogym.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  #divgym{
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #a3a3a3;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  }
+
+  #textogym {
+    font-size: 2rem;
+    margin: 2rem auto;
+    max-width: 900px;
+    color: #050505;
+    line-height: 1.6;
+    padding: 1rem;
+  }
+
+  #divgym p {
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+}
+
+  #pressbanca {
+    background-image: url(fotos/pressbanca.jpg);
+  }
+
+  #pesomuerto {
+    background-image: url(fotos/pesomuerto.jpg);
+  }
+
+  #sentadilla {
+    background-image: url(fotos/sentadilla.jpg);
+  }
+
+  #dominadas {
+    background-image: url(fotos/pullup.jpg);
+  }
+
+  /* PROYECTO ATLETA */
+
+   #bodycursas{
+    font-family: "Alegreya", sans-serif;
+    background-image: url('fotos/fondorunning.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+
+  #botoncursa{
+    background-image: url(fotos/dir.jpg);
+  }
+
+  #botonrecorrido{
+    background-image: url(fotos/cursasalida.jpg);
+  }
+
 /* notas */
  /* text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7); me guardo esto para luego que la verdad es que me mola el sombreado esta bacano*/ 
