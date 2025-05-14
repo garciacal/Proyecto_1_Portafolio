@@ -671,7 +671,7 @@
   }
 
   #imagenbotonlibroajedrez{
-  background-image: url(fotos/dir.jpg);
+  background-image: url(fotos/mejorar\ al\ ajedrez\ libro.jpg);
   width: auto;
   height: 250px;
   margin: 10px;
@@ -685,7 +685,7 @@
   }
 
   #imagenchesscom{
-  background-image: url(fotos/dir.jpg);
+  background-image: url(fotos/chesscom.png);
   width: auto;
   height: 250px;
   margin: 10px;
@@ -697,6 +697,82 @@
   overflow: hidden;
   transition: transform 0.3s ease;
   }
+
+  #imagenbotonlibroajedrez:hover {
+  transform: scale(1.05);
+  }
+
+  #imagenchesscom:hover {
+  transform: scale(1.05);
+  }
+
+
+  .textoajedrez{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 1.1rem;
+  }
+
+  /*PROYECTO ESTUDIOS*/
+
+  #bodyestudios{
+  font-family: "Alegreya", sans-serif;
+  background-image: url('fotos/fondotitulaciones.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+
+  #imagenfp{
+  background-image: url(fotos/botonasir.jpg);
+  width: auto;
+  height: 250px;
+  margin: 10px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  }
+
+  
+  #imagenmaster{
+  background-image: url(fotos/botoncyberseguridad.jpg);
+  width: auto;
+  height: 250px;
+  margin: 10px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  }
+
+  #imagenfp:hover {
+  transform: scale(1.05);
+  }
+
+  #imagenmaster:hover {
+  transform: scale(1.05);
+  }
+
 
 /* notas */
  /* text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7); me guardo esto para luego que la verdad es que me mola el sombreado esta bacano*/ 
