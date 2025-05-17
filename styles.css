@@ -1,4 +1,5 @@
-/*CLASES*/
+
+/*CLASES GENERALES*/
 
 .centrar{
   display: flex;
@@ -15,7 +16,22 @@
   padding-top: 1rem;
 }
 
-/*GENERAL*/
+.centrar{
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/*IDS GENERALES*/
+
+#ulmenu{
+ display: flex;
+ gap: 10px;
+ list-style: none; 
+ padding: 0; 
+}
+
 
 #boton{
   font-family: "Alegreya", sans-serif;
@@ -58,11 +74,6 @@
   transform: translateY(-2px);
 }
 
-.centrar{
-  justify-content: center;
-  align-items: center;
-}
-
 #footergeneral{
   padding: 20px 0;
   margin-top: auto;
@@ -73,6 +84,8 @@
   right: 0;
   width: 100%;
 }
+
+
 
 /* QUIEN ES ALEX */
 
@@ -102,7 +115,6 @@
   transform: scale(1.03);
 }
 
-/*intento de hacer que el texto aparezca al pasar por encima */ 
 
 .gridhobbies > div span {
   opacity: 0;
@@ -198,6 +210,7 @@
   background-image: url(fotos/hobbyjuegosdemesa.jpg);
 }
 
+
 /* EXPERIENCIA LABORAL */
 
 #h1laboral {
@@ -260,6 +273,7 @@
   gap: 20px;
 }
 
+
 /* HISTORIAL ACADEMICO */
 
 #bodyacademico{
@@ -298,6 +312,7 @@
   line-height: 1.6;
   padding: 1rem;
 }
+
 
 /* CONTACTO*/
 
@@ -382,6 +397,7 @@
   line-height: 1.5;
 }
 
+
 /* FORMULARIO ENVIADO*/
 
 #h1enviado {
@@ -411,6 +427,8 @@
   align-items: center;
   min-height: 100vh;
 }
+
+
 
 /* INDEX */
 
@@ -448,9 +466,11 @@
     padding: 1rem;
   }
 
-  /** PROYECTOS **/
 
-  #bodyproyectos {
+
+/* PROYECTOS */
+
+#bodyproyectos {
     background-image: url('fotos/fondoproyecto.jpg');
     background-size: cover;
     background-position: center;
@@ -467,9 +487,7 @@
     background-color: #fdfdfd;
   }
 
-  /** arreglo para que el footer no me lo mueva todo arriba del todo **/
-
-  #bodyproyectos > div {
+#bodyproyectos > div {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
@@ -477,17 +495,16 @@
     align-items: center;
 }
 
-  #h1proyectos {
+#h1proyectos {
     font-size: 4rem;
     font-weight: 600;
     text-transform: uppercase;
     color: #000000;
     margin: 0 0 1rem 0;
     letter-spacing: 2px;
-  } 
+} 
 
-
-  #divproyectos {
+#divproyectos {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -495,11 +512,12 @@
     gap: 20px;
     max-width: 900px;
     margin: 0 auto;
-  }
+}
 
-  /* PROYECTO GYM */
 
-  #bodygym{
+/* PROYECTO GYM */
+
+#bodygym{
     font-family: "Alegreya", sans-serif;
     background-image: url('fotos/fondogym.jpg');
     background-size: cover;
@@ -510,9 +528,9 @@
     justify-content: center;
     align-items: center;
     margin: 0;
-  }
+}
 
-  #divgym{
+#divgym{
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
@@ -521,9 +539,9 @@
   border-radius: 20px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   margin-top: 20px;
-  }
+}
 
-  #textogym {
+#textogym {
     font-size: 2rem;
     margin: 2rem auto;
     max-width: 900px;
@@ -531,33 +549,34 @@
     line-height: 1.6;
     padding: 1rem;
     justify-content: center; 
-  }
+}
 
-  #divgym p {
+#divgym p {
     text-align: center;
     font-size: 20px;
     margin: 0;
 }
 
-  #pressbanca {
+#pressbanca {
     background-image: url(fotos/pressbanca.jpg);
-  }
+}
 
-  #pesomuerto {
+#pesomuerto {
     background-image: url(fotos/pesomuerto.jpg);
-  }
+}
 
-  #sentadilla {
+#sentadilla {
     background-image: url(fotos/sentadilla.jpg);
-  }
+}
 
-  #dominadas {
+#dominadas {
     background-image: url(fotos/pullup.jpg);
-  }
+}
 
-  /* PROYECTO ATLETA */
 
-  #divcursa{
+/* PROYECTO ATLETA */
+
+#divcursa{
   width: 100%;
   max-width: 800px;
   margin: 100px auto 40px auto;
@@ -565,17 +584,15 @@
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-  }
+}
 
-  #divcursa p {
+#divcursa p {
   text-align: center;
   font-size: 20px;
   margin: 0;
-  }
+}
 
-
-
-  .textocursa {
+.textocursa {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -585,9 +602,9 @@
   font-weight: bold;
   padding: 10px;
   font-size: 1.1rem;
-  }
+}
 
-  #bodycursas {
+#bodycursas {
   font-family: "Alegreya", sans-serif;
   background-image: url('fotos/fondorunning.jpg');
   background-size: cover;
@@ -599,10 +616,9 @@
   align-items: center;
   min-height: 100vh;
   overflow: hidden;
-  }
+}
 
-
-  #imagenbotoncursa{
+#imagenbotoncursa{
   background-image: url(fotos/dir.jpg);
   width: auto;
   height: 250px;
@@ -614,9 +630,9 @@
   position: relative;
   overflow: hidden;
   transition: transform 0.3s ease;
-  }
+}
 
-  #imagenbotonsalida {
+#imagenbotonsalida {
   background-image: url(fotos/cursasalida.jpg);
   width: auto;
   height: 250px;
@@ -628,7 +644,7 @@
   position: relative;
   overflow: hidden;
   transition: transform 0.3s ease;
-  }
+}
 
 #imagenbotoncursa:hover {
   transform: scale(1.05);
@@ -638,7 +654,8 @@
   transform: scale(1.05);
 }
 
-/* Ajedrez */
+
+/* AJEDREZ */
 
 #bodyajedrez{
   font-family: "Alegreya", sans-serif;
@@ -662,15 +679,15 @@
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-  }
+}
 
-  #divajedrez p {
+#divajedrez p {
   text-align: center;
   font-size: 20px;
   margin: 0;
-  }
+}
 
-  #imagenbotonlibroajedrez{
+#imagenbotonlibroajedrez{
   background-image: url(fotos/mejorar\ al\ ajedrez\ libro.jpg);
   width: auto;
   height: 250px;
@@ -682,9 +699,9 @@
   position: relative;
   overflow: hidden;
   transition: transform 0.3s ease;
-  }
+}
 
-  #imagenchesscom{
+#imagenchesscom{
   background-image: url(fotos/chesscom.png);
   width: auto;
   height: 250px;
@@ -696,18 +713,18 @@
   position: relative;
   overflow: hidden;
   transition: transform 0.3s ease;
-  }
+}
 
-  #imagenbotonlibroajedrez:hover {
+#imagenbotonlibroajedrez:hover {
   transform: scale(1.05);
-  }
+}
 
-  #imagenchesscom:hover {
+#imagenchesscom:hover {
   transform: scale(1.05);
-  }
+}
 
 
-  .textoajedrez{
+.textoajedrez{
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -717,11 +734,12 @@
     font-weight: bold;
     padding: 10px;
     font-size: 1.1rem;
-  }
+}
 
-  /*PROYECTO ESTUDIOS*/
 
-  #bodyestudios{
+/*PROYECTO ESTUDIOS*/
+
+#bodyestudios{
   font-family: "Alegreya", sans-serif;
   background-image: url('fotos/fondotitulaciones.jpg');
   background-size: cover;
@@ -736,7 +754,7 @@
 }
 
 
-  #imagenfp{
+#imagenfp{
   background-image: url(fotos/botonasir.jpg);
   width: auto;
   height: 250px;
@@ -748,10 +766,10 @@
   position: relative;
   overflow: hidden;
   transition: transform 0.3s ease;
-  }
+}
 
   
-  #imagenmaster{
+#imagenmaster{
   background-image: url(fotos/botoncyberseguridad.jpg);
   width: auto;
   height: 250px;
@@ -763,16 +781,12 @@
   position: relative;
   overflow: hidden;
   transition: transform 0.3s ease;
-  }
+}
 
-  #imagenfp:hover {
+#imagenfp:hover {
   transform: scale(1.05);
-  }
+}
 
-  #imagenmaster:hover {
+#imagenmaster:hover {
   transform: scale(1.05);
-  }
-
-
-/* notas */
- /* text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7); me guardo esto para luego que la verdad es que me mola el sombreado esta bacano*/ 
+}
